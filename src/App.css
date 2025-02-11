@@ -3,6 +3,16 @@ body {
 }
 
 /* Barra navegacion Modulo 1 *********************************/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  background-color: #fff; /* Ajusta el color de fondo si es necesario */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una ligera sombra */
+}
+
 .navbar-brand img {
   margin-right: 10px;
 }
@@ -38,7 +48,7 @@ body {
   margin-bottom: 5px; /* Add margin below the label */
 }
 
-/* Modulo de registro odulo 4 ***********************/
+/* Modulo de registro modulo 4 ***********************/
 
 .registration-form-module {
   margin: 20px auto;
