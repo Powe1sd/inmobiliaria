@@ -1,0 +1,10 @@
+/* Estilos personalizados para la barra de navegación */
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 10px; /* Espacio entre los elementos de menú */
+}
+
+/* Puedes agregar más estilos aquí si lo deseas */
