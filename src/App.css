@@ -11,6 +11,7 @@ body {
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
   background-color: #fff; /* Ajusta el color de fondo si es necesario */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una ligera sombra */
+  color: black;
 }
 
 .navbar-brand img {
@@ -19,6 +20,8 @@ body {
 
 .navbar-nav .nav-link {
   margin-left: 10px; /* Espacio entre los elementos de menú */
+  margin-left: 10px; /* Espacio entre los elementos de menú */
+  color: black !important; /* Asegura que el color negro se aplique */
 }
 
 /* Imagen modulo 2 ****************************/
