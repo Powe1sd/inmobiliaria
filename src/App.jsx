@@ -8,7 +8,7 @@ import ContactModule from "./componentes/contacto"; // Importamos el módulo de 
 import Hora from "./componentes/hora"; // Importa el módulo de hora
 import Tramites from "./componentes/tramites";
 import Intereses from "./componentes/intereses";
-
+import UltimaSeccion from "./componentes/ultima-seccion";
 function App() {
   // Estado para almacenar los resultados de la búsqueda, inicialmente es un array vacío
   const [searchResults, setSearchResults] = useState([]);
@@ -56,6 +56,7 @@ function App() {
       <ContactModule /> {/* Renderiza el módulo de contacto */}
       <Tramites />
       <Intereses />
+      <UltimaSeccion />
       <Hora />
     </div>
   );

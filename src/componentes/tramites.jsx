@@ -73,7 +73,6 @@ const styles = {
     width: "100%",
     maxWidth: "800px", // Limitar el ancho máximo para pantallas grandes
     margin: "0 auto", // Centrar el contenedor
-  
   },
   titulo: {
     fontSize: "24px",
