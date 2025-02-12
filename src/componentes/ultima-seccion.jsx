@@ -5,13 +5,13 @@ const UltimaSeccion = () => {
     {
       titulo: "Apartamento de lujo en venta",
       descripcion: "Hermoso apartamento de 3 habitaciones con vista al mar.",
-      imagen: "/public/inmobiliaria1.jpeg", // Reemplaza con la URL de la imagen
+      imagen: "./public/inmobiliaria1.jpeg", // Reemplaza con la URL de la imagen
       precio: "$500,000",
     },
     {
       titulo: "Casa en alquiler en zona residencial",
       descripcion: "Amplia casa de 4 habitaciones con jardín y piscina.",
-      imagen: "/public/inobiliarias13.jpeg", // Reemplaza con la URL de la imagen
+      imagen: "./public/inobiliarias13.jpeg", // Reemplaza con la URL de la imagen
       precio: "$3,000/mes",
     },
     {
