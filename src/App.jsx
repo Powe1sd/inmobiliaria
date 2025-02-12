@@ -5,6 +5,9 @@ import ImageModule from "./componentes/img"; // Importamos el módulo de imagen
 import Filter from "./componentes/modulo3"; // Importamos el módulo de filtrado
 import RegistrationForm from "./componentes/registro"; // Importamos el formulario de registro
 import ContactModule from "./componentes/contacto"; // Importamos el módulo de contacto
+import Hora from "./componentes/hora"; // Importa el módulo de hora
+import Tramites from "./componentes/tramites";
+import Intereses from "./componentes/intereses";
 
 function App() {
   // Estado para almacenar los resultados de la búsqueda, inicialmente es un array vacío
@@ -51,6 +54,9 @@ function App() {
       </div>
       <RegistrationForm /> {/* Renderiza el formulario de registro */}
       <ContactModule /> {/* Renderiza el módulo de contacto */}
+      <Tramites />
+      <Intereses />
+      <Hora />
     </div>
   );
 }
